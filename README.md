@@ -24,7 +24,9 @@ Step 3 will be automatically verifiable as players have to reveal all the privat
 
 Doing this allows all the peers to verify that the peer followed the exact same steps the game is supposed to be played out, ensuring integrity in the deck and results.
 
-Verification will no doubt be relatively resource intensive, and should optimally only be done on request by the peers. Peers will be rewarded for exposing dishonest acts, and dishonest peers should lose everything they have already put in the current game. Since it most definitely causes players to reveal their secrets, verification should be done as a post-game step before handing out rewards, to prevent players from prematurely ending the game by calling for a verification (perhaps to prevent losing too much money when colluding with others).
+Verification will no doubt be relatively resource intensive, and should optimally only be done on request by the peers. Peers will be rewarded for exposing dishonest acts, and dishonest peers should lose everything they have already put in the current game (locked in the smart contract). 
+
+Since it most definitely causes players to reveal their secrets, verification should be done as a post-game step before handing out rewards, to prevent players from prematurely ending the game by calling for a verification (perhaps to prevent losing too much money when colluding with others).
 
 ## Known Issues
 - Without a central authority, there is no guarantee that the deck is not tampered with. Colluding players can team up and have a scapegoat ruin the deck when the game is not going their favor to potentially minimize losses. If this is a prevalent problem having a central authority might be better, but players will have to trust that the authority is not colluding with other players which kind of defeats the purpose.
